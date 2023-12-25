@@ -11,7 +11,7 @@ public class LoginService {
 
     public UsuarioModel2 consultarUsuario() {
         UsuarioModel2 emmanuel = new UsuarioModel2();
-        emmanuel.setUser(encriptarNombre("emmanuelmm"));
+        emmanuel.setUser(encriptarNombre("emmanuel"));
         return emmanuel;
     }
 
